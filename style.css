@@ -1,0 +1,242 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
+@import url('https://fonts.googleapis.com/css?family=Cardo|Open+Sans:400,600,700|Raleway:300,400,500,600,700,800&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+a:hover,
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+p{
+	padding: 0;
+	margin: 0;
+}
+.mb_77{
+	margin-bottom: 77px;
+}
+img{
+	vertical-align: middle;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Raleway', sans-serif;
+	scroll-behavior: smooth;
+	transition: all linear 0.3s;
+	/*font-family: 'Cardo', serif;
+	font-family: 'Open Sans', sans-serif;*/
+}
+
+#header{
+	padding: 38px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#header .navbar-expand-lg .navbar-nav .nav-link{
+	padding: 0;
+	padding-left: 59px;
+	font-size: 13px;
+	color: #fff;
+	font-weight: bold;
+}
+/*header area ends*/
+#banner{
+	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+.bnr_overlay{
+	padding: 257px 0 156px;
+	background: rgba(43, 46, 74, 0.95);
+}
+.bnr_content h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 65px;
+	color: #fff;
+	font-weight: 700;
+	padding: 0 100px;
+	text-transform: uppercase;
+
+}
+.bnr_content p{
+	font-size: 22px;
+	color: #fff;
+	font-weight: 400;
+	padding: 41px 80px 77px;
+}
+.bnr_content a{
+	display: inline-block;
+	padding: 18px 54px;
+	background: #e84545;
+	color: #fff;
+}
+/*banner area ends*/
+
+#service{
+	padding: 121px 0;
+}
+.ser_cont{
+	margin-top: 35px;
+}
+.ser_cont h3{
+	font-size: 14px;
+	color: #2d3033;
+	font-weight: 700;
+	margin-bottom: 25px;
+}
+.ser_cont p{
+	font-size: 13px;
+	color: #6c7279;
+}
+#gly{
+	margin-bottom: 100px;
+}
+#gly img:hover{
+	background: rgba(255, 0, 0, 0.5);
+}
+#employee{
+	margin-bottom: 100px;
+}
+ #employee .employee h3{
+	font-size: 22px;
+	color: #2d3033;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+ #employee .employee span{
+	font-size: 13px;
+	color: #e84545;
+	text-transform: uppercase;
+
+}
+#employee .employee p{
+	font-size: 14px;
+	color: #6c7279;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#employee .employee a{
+	padding: 10px;
+	color: #c6cacc;
+	border: 1px solid #e8ecee;
+	margin-left: 10px;
+}
+#Testimonials{
+	background-color: #53354a;
+}
+#Testimonials .testimornial{
+		padding: 50px 35px 50px 50px;
+}
+#Testimonials .testimornial em{
+	font-size: 36px;
+	color: #ffffff;
+}
+#Testimonials .testimornial p{
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 30px;
+}
+#Testimonials  .testimornial .circle {
+	margin-left: 150px;
+}
+#Testimonials  .testimornial .circle a {
+	color: #fff;
+}
+#download{
+	padding: 100px 0;
+	text-align: center;
+}
+#download .d_con h4{
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+#download .d_con p{
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+#download .d_con a{
+	font-size: 13px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 20px 80px;
+	background-color: #e84545;
+	color: #fff;
+	border-radius: 5px;
+}
+#contact{
+	background-color: #3a3e64;
+	padding: 70px 0;
+	text-align: center;
+}
+#contact .contact h5{
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 22px;
+	text-transform: uppercase;
+}
+#contact .contact p{
+	color: #afb0bc;
+	font-size: 14px;
+	font-weight: bold;
+}
+#contact .contact .s_i  a{
+	color: #ffffff;
+	padding: 15px;
+	border: 2px solid #ffffff;
+	margin-top: 20px;
+}
+#footer{
+	padding: 30px;
+	text-align: center;
+	background-color: #313454;
+}
+#footer p{
+	color: #656670;
+}
+/*#clipy{
+	background: url(../images/banner.jpg);
+	height: 300px;
+	width: 500px;
+
+	-webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+	clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
+
+.text{
+	padding: 200px 0;
+	text-align: center;
+}
+/*.text h1{*/
+/*	background: url(../images/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 15vw;
+	text-transform: uppercase;
+	font-weight:  800;
+	color: #fff;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke: 2px #fff;
+	-webkit-background-clip: text;
+/*	        background-clip: text;*/
+/*}*/
